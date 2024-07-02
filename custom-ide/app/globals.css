@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  color:blue;
+}
+input{
+  border: 1px solid blue;
+}
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
